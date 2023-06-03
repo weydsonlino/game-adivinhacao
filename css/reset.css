@@ -1,0 +1,29 @@
+/* Reset.css */
+
+/* Remove default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, form, fieldset, legend, button, input, textarea, select, optgroup, option {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default borders */
+  img, iframe, hr, input[type="checkbox"], input[type="radio"], input[type="number"], object, embed, video {
+    border: 0;
+  }
+  
+  /* Set consistent font styles */
+  body, button, input, select, textarea {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Normalize form elements */
+  input, select, textarea, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  /* Add any additional reset rules as needed */
+  /* ... */
+  
+  

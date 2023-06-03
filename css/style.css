@@ -1,0 +1,11 @@
+*{
+    font-family: 'Courier New', Courier, monospace , 'arial';
+}
+.conteinerJogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: forestgreen;
+}
