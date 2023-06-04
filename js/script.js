@@ -32,13 +32,15 @@
                 if (palpiteUsuario === numeroAleatorio) {
                     resultado.textContent = 'Parabéns';
                     resultado.style.backgroundColor = 'green';
+                    resultado.style.color= 'white';
                     maiorMenor.textContent = ' '
                     chances.textContent = ' '
                     fimdejogo();
                 }
                 else if (palpiteQuant >= palpiteMax){
-                    resultado.textContent = 'Você Pedeu'
+                    resultado.textContent = 'Você Perdeu'
                     resultado.style.backgroundColor = 'red';
+                    resultado.style.color= 'white';
                     maiorMenor.textContent = ' '
                     chances.textContent = ' '
                     fimdejogo();
