@@ -11,23 +11,29 @@
 </head>
 <body>
     <main class="conteinerJogo">
-        <div class="nomediscri">
-            <h1 class="jogoNome">Adivinhe o Número</h1>
-            <p class="jogoDiscri">Adivinhe o número entre 1 e 100</p>
-        </div>
+        <div id="jogo">
+            <div class="nomediscri">
+                <h1 class="jogoNome">Adivinhe o Número</h1>
+                <p class="jogoDiscri">Adivinhe o número entre 1 e 100</p>
+            </div>
 
-        <div class="jogoInput">
-            Digite o número aqui<input type="number" class="jogoTentativa">
-            <input type="submit" value="Enviar Palpite" class="enviarPalpite">
-        </div>
-        <div  class="vfeedback">
-            <p class="palpitesAnteriores"></p>
-            <p class="ultimoResultado"></p>
-            <p class="maiorMenor"></p>
-            <p class="chances"></p>
-        </div>
+            <div class="jogoInput">
+                <div class="inputNumberName">
+                    <p class="iputName"> Digite o número: </p>
+                    <input type="number" class="jogoTentativa meuInput" >
+                </div>
+                <input type="submit" value="Enviar Palpite" class="enviarPalpite meuBotao" >
+            </div>
+            <div  class="vfeedback">
+                <p class="chances"></p>
+                <p class="ultimoResultado"></p>
+                <p class="maiorMenor"></p>
+                <p class="palpitesAnteriores"></p>
+                
+                <script src="js/script.js"></script>
+            </div>
+        </div>    
         
-        <script src="js/script.js"></script>
     </main>
 </body>
 </html>

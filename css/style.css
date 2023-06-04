@@ -1,11 +1,85 @@
 *{
     font-family: 'Courier New', Courier, monospace , 'arial';
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .conteinerJogo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: max-content;
+    height: 90vh;
+}
+#jogo{
     background-color: black;
     color: forestgreen;
+    padding: 50px;
+    height: 350px;
+    width: 450px;
+    border-radius: 3%;
 }
+.jogoNome{
+    font-size: 35px;
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+.jogoDiscri{
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.jogoInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iputName{
+    font-size: 18px;
+    text-align: center;
+    margin-right: 5px;
+}
+.inputNumberName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.palpitesAnteriores{
+    background-color: white;
+}
+
+
+
+.meuInput {
+    margin-left: 5px;
+    height: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .meuInput:focus {
+    border-color: #4CAF50;
+  }
+.meuBotao {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .meuBotao:hover {
+    background-color: #45a049;
+  }
